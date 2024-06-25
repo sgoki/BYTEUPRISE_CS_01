@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dimgrey;
+    margin: 0;
+}
+
+.container {
+    background: beige;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#feedback {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.weak {
+    color: white;
+    background-color: red;
+}
+
+.moderate {
+    color: white;
+    background-color: orange;
+}
+
+.strong {
+    color: white;
+    background-color: green;
+}
